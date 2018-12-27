@@ -4,8 +4,9 @@
 def key_for_min_value(name_hash)
   if name_hash == 0 
     return nil 
-  end
-  name_hash.each do |k, v|
-    if v <
+  else
+    name_hash.each do |k, v|
+      if v <
+    end
   end
 end
