@@ -3,5 +3,7 @@
 
 def key_for_min_value(name_hash)
   small = nil 
-  name_hash.collect
+  name_hash.each do |k, v|
+    if 
+  end
 end
