@@ -3,6 +3,7 @@
 
 def key_for_min_value(name_hash)
     smallest_k = nil
+    smallest_v = 
     name_hash.each do |k, v|
       if v < currentv
         smallest_v = v
